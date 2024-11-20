@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #AB886D;
+}
+header{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    background-color: #493628;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: whitesmoke;
+}
+header .left{
+    height: 100%;
+    margin:auto;
+    width: 30%;
+}
+header .left .title{
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+header .right{
+    height: 100%;
+    width: 70%;
+}
+header .links{
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:link{
+    text-decoration: none;
+    
+}
+#link{
+    color: whitesmoke;
+}
+.content{
+    padding-top: 10vh;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+tr th {
+    background-color: #E4E0E1;
+    font-weight: bolder;
+}
+tr:nth-child(even) {
+    background-color: #E4E0E1;
+}
+tr:nth-child(odd) {
+    background-color: #D6C0B3;
+}
+tr:hover {
+    background-color: #7c6859;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 3px;
+    background-color: #D6C0B3;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#text{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    background-color: #D6C0B3;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+}
+#text h2{
+    text-decoration: underline;
+}
+#addition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.unit{
+    text-align: center;
+}
